@@ -1,0 +1,76 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d edge
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://localhost:52543/json
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, 2.4.0-4.2.pre, on
+    Microsoft Windows [Version
+    10.0.19043.1110], locale en-US)
+    • Flutter version 2.4.0-4.2.pre at
+      D:\Flutter
+    • Upstream repository
+      https://github.com/flutter/flutter.git
+    • Framework revision f18b9281c2 (2 days
+      ago), 2021-07-22 14:08:30 -0700
+    • Engine revision 844c29f42a
+    • Dart version 2.14.0 (build
+      2.14.0-301.2.beta)
+
+[✗] Android toolchain - develop for Android
+    devices
+    ✗ Unable to locate Android SDK.
+      Install Android Studio from:
+      https://developer.android.com/studio/inde
+      x.html
+      On first launch it will assist you in
+      installing the Android SDK components.
+      (or visit
+      https://flutter.dev/docs/get-started/inst
+      all/windows#android-setup for detailed
+      instructions).
+      If the Android SDK has been installed to
+      a custom location, please use
+      `flutter config --android-sdk` to update
+      to that location.
+
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files
+      (x86)\Google\Chrome\Application\chrome.ex
+      e
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from
+      https://developer.android.com/studio/inde
+      x.html
+      (or visit
+      https://flutter.dev/docs/get-started/inst
+      all/windows#android-setup for detailed
+      instructions).
+
+[✓] VS Code (version 1.58.2)
+    • VS Code at
+      C:\Users\LENOVO\AppData\Local\Programs\Mi
+      crosoft VS Code
+    • Flutter extension version 3.24.0
+
+[✓] Connected device (2 available)
+    • Chrome (web) • chrome • web-javascript •
+      Google Chrome 91.0.4472.164
+    • Edge (web)   • edge   • web-javascript •
+      Microsoft Edge 92.0.902.55
+
+! Doctor found issues in 2 categories.
+```
